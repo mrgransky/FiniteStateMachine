@@ -14,6 +14,7 @@
     <ProjectGuid>{CE8FB799-A312-40D0-B16C-383202150B42}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>FSM_with_Switch_Case</RootNamespace>
+    <ProjectName>Booth_Decontamination_FSM</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
