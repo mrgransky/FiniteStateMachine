@@ -3,21 +3,15 @@
 #include <Windows.h>
 #include <stdlib.h>
 
-
 using namespace std;
-
-
 
 enum class FSMstate { IDLE, DOOR_1_OPEN, DOOR_1_CLOSE, UV_LIGHT_ON, DOOR_2_OPEN };
 enum class button { nonPressed, pressed };
 enum class pressureSensor{ nonDetected, detected };
 
-
-
 FSMstate state;
 pressureSensor ps;
 button b;
-
 
 bool isProcessRunning = true;
 
